@@ -3,8 +3,6 @@
     <wb-module deploy-name="PCG_EMAIL">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/fachada.pcg-mail.com.br"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/views"/>
         <property name="context-root" value="PCG_EMAIL"/>
         <property name="java-output-path" value="/PCG_EMAIL/build/classes"/>
     </wb-module>
