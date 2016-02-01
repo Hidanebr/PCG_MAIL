@@ -4,6 +4,15 @@ public class Usuario {
 
 	private String login;
 	private String senha;
+	private int codigoUsuario;
+	
+	public int getCodigoUsuario() {
+		return codigoUsuario;
+	}
+
+	public void setCodigoUsuario(int codigoUsuario) {
+		this.codigoUsuario = codigoUsuario;
+	}
 
 	public String getLogin() {
 		return login;
